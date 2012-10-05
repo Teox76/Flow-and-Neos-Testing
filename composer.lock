@@ -1,5 +1,5 @@
 {
-    "hash": "8c4390e1b530edbc75df0931db96558a",
+    "hash": "2959c3cf5e3ab2cf6dad2cbcd95b6eef",
     "packages": [
         {
             "name": "doctrine/common",
@@ -49,7 +49,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -129,12 +129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations",
-                "reference": "3dd738b2a709f4d5185c144292189c6e708ca37d"
+                "reference": "b38ddb190ec78d389b2c2de838b2a4d646ad1ce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/migrations/zipball/3dd738b2a709f4d5185c144292189c6e708ca37d",
-                "reference": "3dd738b2a709f4d5185c144292189c6e708ca37d",
+                "url": "https://github.com/doctrine/migrations/zipball/b38ddb190ec78d389b2c2de838b2a4d646ad1ce2",
+                "reference": "b38ddb190ec78d389b2c2de838b2a4d646ad1ce2",
                 "shasum": ""
             },
             "require": {
@@ -148,7 +148,7 @@
             "suggest": {
                 "symfony/console": "to run the migration from the console"
             },
-            "time": "1348090059",
+            "time": "1349435713",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -233,63 +233,6 @@
             "keywords": [
                 "database",
                 "orm"
-            ]
-        },
-        {
-            "name": "flow3/composer-installers",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/christianjul/installers.git",
-                "reference": "721c602d925a579ee079978c4cd5e5c09bf9bfca"
-            },
-            "replace": {
-                "shama/baton": "*"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*"
-            },
-            "time": "1348736959",
-            "type": "composer-installer",
-            "extra": {
-                "class": "Composer\\Installers\\Installer"
-            },
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kyle Robinson Young",
-                    "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama"
-                }
-            ],
-            "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
-            "keywords": [
-                "installer",
-                "cakephp",
-                "laravel",
-                "kohana",
-                "li3",
-                "lithium",
-                "fuelphp",
-                "codeigniter",
-                "symfony",
-                "phpbb",
-                "ppi",
-                "joomla",
-                "wordpress",
-                "drupal",
-                "zend",
-                "silverstripe",
-                "FLOW3"
             ]
         },
         {
@@ -445,13 +388,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
-                "reference": "4184cb066d35d3e722012725a565bb7f50cf3ff2"
+                "reference": "661368624b54464d2af838bb9b871835903c7581"
             },
             "require": {
-                "typo3/flow3": "*"
+                "typo3/flow": "*"
             },
-            "time": "1348491485",
-            "type": "flow3-package",
+            "time": "1349122871",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -466,14 +409,14 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/Aloha.git",
-                "reference": "ee227f26989259a15865cd30725c301517a2ec21"
+                "reference": "93f19d211c29712da3fec3559c0a51fc26b93c20"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "typo3/fluid": "*"
             },
-            "time": "1348860663",
-            "type": "flow3-package",
+            "time": "1349120949",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -488,13 +431,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Eel.git",
-                "reference": "092b3b4c1bede362ad116251350370e97ebac707"
+                "reference": "e22fc1aa7dc198b31abfc29f47e7a92b36bd2f33"
             },
             "require": {
-                "typo3/flow3": "*"
+                "typo3/flow": "*"
             },
-            "time": "1348519511",
-            "type": "flow3-package",
+            "time": "1349121276",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -508,28 +451,28 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.ExtJS.git",
-                "reference": "ad8d51519d275ca8adbacbe1959cbb49c84c1d73"
+                "reference": "ebe91b5b0209628f01c6d9f3ee91d88b80be8ad7"
             },
             "require": {
-                "typo3/flow3": "*"
+                "typo3/flow": "*"
             },
-            "time": "1348483983",
-            "type": "flow3-package",
+            "time": "1349121526",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "TYPO3\\ExtJS": "Classes"
                 }
             },
-            "description": "The package contains ExtJS for use in FLOW3 packages. It is a slightly trimmed version of ExtJS (missing source, build, examples, documentation) with JavaScript, images, CSS and Flash moved to distinct folders. In addition it contains the ux files found in the examples folder of the ExtJS distribution. Using Ext Direct is supported by an Ext Direct request handler and a viewhelper to build a provider configuration from controller actions."
+            "description": "The package contains ExtJS for use in TYPO3 Flow packages. It is a slightly trimmed version of ExtJS (missing source, build, examples, documentation) with JavaScript, images, CSS and Flash moved to distinct folders. In addition it contains the ux files found in the examples folder of the ExtJS distribution. Using Ext Direct is supported by an Ext Direct request handler and a viewhelper to build a provider configuration from controller actions."
         },
         {
-            "name": "typo3/flow3",
+            "name": "typo3/flow",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git",
-                "reference": "569fcb8657b3c6521db122bef78f0717a98b1586"
+                "reference": "81c41cdf4892a406748368457748cc0e7f1a60fc"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -537,20 +480,20 @@
                 "ext-spl": "*",
                 "ext-json": ">=1.2.0",
                 "ext-session": "*",
-                "flow3/composer-installers": "*",
                 "typo3/fluid": "*",
                 "typo3/party": "*",
                 "doctrine/orm": "2.2.2",
                 "doctrine/migrations": "*",
                 "symfony/yaml": ">2.1.0",
-                "symfony/dom-crawler": ">2.0.16"
+                "symfony/dom-crawler": ">2.0.16",
+                "typo3/flow-composer-installers": "*"
             },
-            "time": "1348955634",
-            "type": "flow3-framework",
+            "time": "1349356117",
+            "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "TYPO3\\FLOW3": "Classes"
+                    "TYPO3\\Flow": "Classes"
                 }
             },
             "license": [
@@ -558,14 +501,71 @@
             ],
             "authors": [
                 {
-                    "name": "FLOW3 Development Team",
+                    "name": "TYPO3 Flow Development Team",
                     "homepage": "http://typo3.org/teams/core-development-team/"
                 }
             ],
-            "description": "FLOW3 - TYPO3's Application Framework",
-            "homepage": "http://flow3.typo3.org",
+            "description": "TYPO3 Flow Application Framework",
+            "homepage": "http://flow.typo3.org",
             "keywords": [
                 "framework"
+            ]
+        },
+        {
+            "name": "typo3/flow-composer-installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/christianjul/installers.git",
+                "reference": "1fe72c0bfad09668a47acfa3c60da2db429adb4d"
+            },
+            "replace": {
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*"
+            },
+            "time": "1349285823",
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer"
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "installer",
+                "cakephp",
+                "laravel",
+                "kohana",
+                "li3",
+                "lithium",
+                "fuelphp",
+                "codeigniter",
+                "symfony",
+                "phpbb",
+                "ppi",
+                "joomla",
+                "wordpress",
+                "drupal",
+                "zend",
+                "silverstripe",
+                "TYPO3 Flow"
             ]
         },
         {
@@ -574,14 +574,14 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git",
-                "reference": "56822145986c86b490a178b48f9e72ff02280570"
+                "reference": "913272d4260fd75610a195192969a926af48e94d"
             },
             "require": {
-                "typo3/flow3": "*",
-                "flow3/composer-installers": "*"
+                "typo3/flow-composer-installers": "*",
+                "typo3/flow": "*"
             },
-            "time": "1348591837",
-            "type": "flow3-framework",
+            "time": "1349283709",
+            "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -591,7 +591,7 @@
             "license": [
                 "LGPL-3.0+"
             ],
-            "description": "Next-Generation Templating Framework for FLOW3 and TYPO3 5.0, also backported to TYPO3 4.x"
+            "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 5.0, also backported to TYPO3 4.x"
         },
         {
             "name": "typo3/form",
@@ -599,13 +599,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Form.git",
-                "reference": "3aa7f9899012811c19928edbff7169593f9977b0"
+                "reference": "366aa160061a308340b3f01d32488b61ea990654"
             },
             "require": {
-                "typo3/flow3": "*"
+                "typo3/flow": "*"
             },
-            "time": "1348561266",
-            "type": "flow3-package",
+            "time": "1349121735",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -620,14 +620,14 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/Imagine.git",
-                "reference": "370952db375e4b48099d642207a56c9db26e1b8a"
+                "reference": "70d26f23230e84c94bb4ce15209cc374c7c94eae"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "imagine/imagine": "*"
             },
-            "time": "1348827564",
-            "type": "flow3-package",
+            "time": "1349121824",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -641,14 +641,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Kickstart.git",
-                "reference": "c86dcb772cd884eb2283aa44e431d016c45a1742"
+                "reference": "4280efb254988ba03c6c1d2013377fd026cd1e29"
             },
             "require": {
-                "flow3/composer-installers": "*",
-                "typo3/flow3": "*"
+                "typo3/flow": "*"
             },
-            "time": "1348593431",
-            "type": "flow3-framework",
+            "time": "1349281880",
+            "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -666,14 +665,14 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Media.git",
-                "reference": "4c8a74b75200074cc1d2baa815c6bb2737074266"
+                "reference": "e23f856e5c38f109c238e8cc88f4f1745000fd56"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "typo3/imagine": "*"
             },
-            "time": "1348561055",
-            "type": "flow3-package",
+            "time": "1349173182",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -688,14 +687,14 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Party.git",
-                "reference": "1b33e6977b3e804e36b339d9d812e6ea87c46e0e"
+                "reference": "930a1d41535f8fbe771e215d04eba5f71ccdb5bc"
             },
             "require": {
-                "typo3/flow3": "*",
-                "flow3/composer-installers": "*"
+                "typo3/flow-composer-installers": "*",
+                "typo3/flow": "*"
             },
-            "time": "1348597977",
-            "type": "flow3-framework",
+            "time": "1349341725",
+            "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -713,10 +712,10 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.TYPO3.git",
-                "reference": "2237ca821aa8d399a6bc57f7a303fba7d5f3d8dc"
+                "reference": "396038f3e4dd715bd3c627449c0f4cebc2418251"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "typo3/extjs": "*",
                 "typo3/aloha": "*",
                 "typo3/media": "*",
@@ -727,8 +726,8 @@
                 "typo3/typoscript": "*",
                 "typo3/sitekickstarter": "*"
             },
-            "time": "1348833096",
-            "type": "flow3-package",
+            "time": "1349451787",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -743,14 +742,14 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Phoenix.ContentTypes.git",
-                "reference": "762805120d1ea3df65ed641ce734a256b80b2df2"
+                "reference": "178cb54c392eb8e122f55cada7b23604e8ad85f1"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "typo3/typoscript": "*"
             },
-            "time": "1348826477",
-            "type": "flow3-package",
+            "time": "1349342731",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -765,13 +764,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/PhoenixDemoTypo3Org.git",
-                "reference": "fd25c8e80179f34d5e2e180e4b888df4772298af"
+                "reference": "380d2875bb71f9e2d71b86ad95c8faa251727134"
             },
             "require": {
                 "typo3/phoenix": "*"
             },
-            "time": "1348735162",
-            "type": "flow3-site",
+            "time": "1349173137",
+            "type": "typo3-flow-site",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -786,15 +785,15 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Setup.git",
-                "reference": "9983fc3235c0635f695dce18a7bfffa8b01d4413"
+                "reference": "045a035a8c7c68d49d171e113da338781f12e0f9"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "typo3/form": "*",
                 "twitter/bootstrap": "*"
             },
-            "time": "1348517302",
-            "type": "flow3-package",
+            "time": "1349122249",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -808,18 +807,40 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.SiteKickstarter.git",
-                "reference": "6abbd7ddaa7973fca4119f9e04b4c5fa521f9920"
+                "reference": "0dbdfc9c9f4b8378dce432bee8ca97554b562f00"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "typo3/kickstart": "*"
             },
-            "time": "1348517287",
-            "type": "flow3-package",
+            "time": "1349122408",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "TYPO3\\SiteKickstarter": "Classes"
+                }
+            }
+        },
+        {
+            "name": "typo3/t3con-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/radmiraal/TYPO3.T3CON.Test.git",
+                "reference": "9e237200f8597f76e4fc48c5c5470ca6581b1997"
+            },
+            "require": {
+                "typo3/flow": "*",
+                "typo3/fluid": "*",
+                "typo3/flow-composer-installers": "*"
+            },
+            "time": "1349456933",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\T3CON\\Test": "Classes"
                 }
             }
         },
@@ -829,13 +850,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.TYPO3CR.git",
-                "reference": "6f6e631f63481899acc3c5c24f1b0ad4e7648552"
+                "reference": "17320c62682d52dc4f25024ffd71b7412248eb6b"
             },
             "require": {
-                "typo3/flow3": "*"
+                "typo3/flow": "*"
             },
-            "time": "1349171031",
-            "type": "flow3-package",
+            "time": "1349298243",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -849,14 +870,14 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.TypoScript.git",
-                "reference": "836390e037012830f54d14b238675bc4eb1d0fc6"
+                "reference": "a5f2488c660065c316c06d2dde912500c1fcb456"
             },
             "require": {
-                "typo3/flow3": "*",
+                "typo3/flow": "*",
                 "typo3/eel": "*"
             },
-            "time": "1348734561",
-            "type": "flow3-package",
+            "time": "1349122770",
+            "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
@@ -902,19 +923,19 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/BuildEssentials.git",
-                "reference": "38ec78508d5cfe9631bc2f1f1a1a9bcf98e202b8"
+                "reference": "66c20c4e3815baedf75c9054cd0ae7d51ca4def3"
             },
             "require": {
                 "php": ">=5.3.2",
-                "flow3/composer-installers": "*"
+                "typo3/flow-composer-installers": "*"
             },
-            "time": "1349117873",
-            "type": "flow3-build",
+            "time": "1349466255",
+            "type": "typo3-flow-build",
             "installation-source": "source",
             "license": [
                 "LGPL-3.0+"
             ],
-            "description": "FLOW3 Build Toolchain Essentials"
+            "description": "TYPO3 Flow Build Toolchain Essentials"
         }
     ],
     "aliases": [
@@ -924,6 +945,7 @@
     "stability-flags": {
         "typo3/phoenix": 20,
         "typo3/phoenixdemotypo3org": 20,
+        "typo3/t3con-test": 20,
         "typo3/buildessentials": 20
     }
 }
